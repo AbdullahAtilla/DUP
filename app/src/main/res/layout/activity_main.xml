@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button_fit_outfit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_fit"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_add_outfit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_add_outfit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_from_gallery"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_fit_outfit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_add_outfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="113dp"
+        android:fontFamily="monospace"
+        android:text="ADD OUTFIT"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_fit_outfit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_add_outfit" />
+
+    <TextView
+        android:id="@+id/text_view_fit_outfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="113dp"
+        android:text="FIT OUTFIT"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview_add_outfit"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameContainer_fit_preview"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.dup.tdup.AutoFitFrameLayout
+        android:id="@+id/autofitFrameLayout_fit_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.dup.tdup.AutoFitTextureView
+            android:id="@+id/autoFitTextureView_fit_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.dup.tdup.DrawView
+            android:id="@+id/drawView_fit_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.dup.tdup.AutoFitFrameLayout>
+</FrameLayout>

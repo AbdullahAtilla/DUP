@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:1-6:12
+	package
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:3:7-27
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:5:7-34
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml:4:7-33
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+uses-sdk
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		ADDED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
+		INJECTED from /home/atilla/AndroidStudioProjects/tDUP/OpenCV/AndroidManifest.xml
